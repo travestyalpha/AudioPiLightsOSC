@@ -8,8 +8,6 @@ import os
 import binascii
 import winsound
 
-
-
 server = OSCServer( ("192.168.1.70", 8080) )#This has to be the IP of the RaspberryPi on the network
 #client = OSCClient()
 
